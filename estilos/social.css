@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    height: 0px; /* Altura do scrollbar */
+    width: 0px; /* Largura do scrollbar */
+    /*display: none;*/ /* Oculta o scrollbar */
+}
+
+img{
+    width: 100vw;
+    
+}
+
+a{
+    display: block; /* Alinha o link como um bloco */
+    text-decoration: none;
+    background-color: rgb(107, 0, 0);
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.535);
+    padding: 20px;
+    text-align: center;
+
+}
+
+a:hover{
+    background-color: rgb(154, 0, 0);
+
+}
