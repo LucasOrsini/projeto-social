@@ -47,3 +47,25 @@ iframe#tela{
     
 
 }
+
+section#sociais{
+    text-align: right;
+}
+
+section#sociais img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #000000bd;
+    box-sizing: border-box; /* Para incluir a borda no tamanho total do elemento */
+    
+
+}
+
+section#sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.609);
+    transform: translate(-3px, -3px); /* Para dar um efeito de movimento ao passar o mouse */
+    transition: transform 0.2s; /* Para dar um efeito de transição ao passar o mouse */
+    box-shadow: 5px 5px 10px black; /* Para dar um efeito de sombra ao passar o mouse */
+}
